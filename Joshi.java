@@ -1,8 +1,10 @@
 package abstraction.part1;
 class Joshi{
-	public Joshi() {
-		System.out.println("Constructor Joshi");
-	}
+
+   public void show(){
+    System.out.println("Happy Coding");
+
+   }
 }
 class Vamsi extends Joshi{
 	public Vamsi() {
